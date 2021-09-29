@@ -13,7 +13,6 @@ class TodoCounter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.fromLTRB(0, 20, 0, 20),
       child: Center(
         child: Text(
           "$checkedCount/$allCount",
